@@ -60,7 +60,7 @@
 
 ## 范围与限制
 
-根 README 明确说明发布不包含游戏数据；需要另行取得并遵守原 EULA。Steam 集成、Bink 视频和 depth-fail 模板阴影后端功能也不在发布内，因此本 Wiki 不会把相关调用点描述为完整商业实现。[README.txt:12-21](../../_src/DOOM-3-BFG/README.txt#L12-L21) [README.txt:35-52](../../_src/DOOM-3-BFG/README.txt#L35-L52)
+根 README 明确说明发布不包含游戏数据；需要另行取得并遵守原 EULA。Steam 集成、Bink 视频和 depth-fail 模板阴影后端功能也不在发布内，因此本 Wiki 不会把相关调用点描述为完整商业实现。[README.txt:12-21](https://github.com/id-Software/DOOM-3-BFG/blob/1caba1979589971b5ed44e315d9ead30b278d8b4/README.txt#L12-L21) [README.txt:35-52](https://github.com/id-Software/DOOM-3-BFG/blob/1caba1979589971b5ed44e315d9ead30b278d8b4/README.txt#L35-L52)
 
 第三方库只分析其与主程序的装配边界，不逐行讲解 JPEG、zlib、DXT、Timidity 等算法；不分析外部移植 fork，也不假设未随仓库发布的 Steam/Bink 实现。成就、排行、语音和完整个人资料等平台外围服务，以及逐种 Decl、内置 UI 小游戏和 Classic 条件网络代码不作独立展开。大型仓库采用核心路径优先的有边界覆盖，未决项和排除原因见[审计报告](audit.md)。
 
